@@ -152,11 +152,9 @@
   #hero {
     position: relative;
     min-height: 100svh;
-    padding-top: 104px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 0;
     overflow: hidden;
   }
   #hero-bg {
@@ -181,8 +179,8 @@
   #hero-content {
     position: relative;
     z-index: 1;
-    padding: 0 28px 110px;
-    max-width: 680px;
+    padding: 104px 28px 110px;
+    width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -193,6 +191,8 @@
     font-size: clamp(32px, 8vw, 48px);
     color: var(--white);
     margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
   }
   #hero p {
     font-size: 14px;
@@ -200,6 +200,8 @@
     letter-spacing: 0.08em;
     margin-bottom: 32px;
     line-height: 2;
+    text-align: center;
+    width: 100%;
   }
   #hero .btn--line { max-width: 340px; }
 
@@ -775,7 +777,7 @@
   <div id="hero-content">
     <h1 class="display" style="text-align:center;">扉を閉めた瞬間<br>あなただけの<br>時間が始まる</h1>
     <p style="text-align:center;">完全貸切・マンツーマン<br>誰にも気を遣わない癒しの空間</p>
-    <a href="https://line.me/R/ti/p/%40926hnsyx" class="btn btn--line" target="_blank" rel="noopener" style="max-width:320px;margin:0 auto;">
+    <a href="https://line.me/R/ti/p/%40926hnsyx" class="btn btn--line" target="_blank" rel="noopener" style="max-width:320px;margin:0 auto;display:flex;">
       <svg width="20" height="20" viewBox="0 0 18 18" fill="none"><path d="M15.75 7.58C15.75 4.4 12.73 1.8 9 1.8S2.25 4.4 2.25 7.58c0 2.87 2.55 5.28 5.99 5.73.23.05.55.15.63.35.07.18.05.46.02.64l-.1.61c-.03.18-.14.7.61.38.75-.32 4.06-2.39 5.54-4.09A5.07 5.07 0 0015.75 7.58z" fill="#fff"/></svg>
       まずはLINEで無料相談する
     </a>
